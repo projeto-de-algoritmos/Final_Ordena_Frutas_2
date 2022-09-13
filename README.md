@@ -1,5 +1,5 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
+# Ordena frutas
+ 
 Temas:
  - Grafos1
  - Grafos2
@@ -8,38 +8,32 @@ Temas:
  - Greed
  - Final 
  
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
-
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0119006  |  Enzo Gabriel Guedes Queiroz Saraiva |
+| 16/0114705  |  Bruno Alves Félix |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+
+O projeto ordena frutas tem como base a escolha de uma dieta, que pode ser low carb ou high carb. Após escolher a dieta, o usuário escolhe as frutas que ele quer que entrem na dieta. Com isso a aplicação gera uma ordem de prioridade de frutas para o usuário da aplicação.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/38733364/185038838-eac3857b-a23d-40d2-a55e-b4c5e3b62ca8.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/38733364/185038871-f4295b31-f47b-4f0b-8175-9ca62d4d010d.png">
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: javascript<br>
+**Framework**: ReactJs<br>
+
+- Clone o repositório
+- Abra a pasta do repositório no terminal
+- Rode npm install ou apenas yarn no terminal
+- Após o fim da instalação, rode yarn start ou npm start na pasta do projeto para rodar o frontend
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+Primeiramente seleciona uma dieta e as frutas que sua preferencia.
+Em sequencia cliquei em "Gerar Ordem de Frutas".
+Por fim será possível visualizar a priorizaçãod a dieta.
