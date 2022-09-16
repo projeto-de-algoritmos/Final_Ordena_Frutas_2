@@ -1,7 +1,6 @@
 function merge(left, right) {
   let sortedArr = [];
   while (left.length && right.length) {
-    console.log(left[0], right[0])
     if (left[0].carbohydrates < right[0].carbohydrates) {
       sortedArr.push(left.shift());
     } else {
